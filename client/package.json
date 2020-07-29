@@ -1,6 +1,7 @@
 {
   "name": "cms",
   "version": "0.1.0",
+  "homepage": "https://mathcodes.github.com/employeedirectory/index.html",
   "private": true,
   "proxy": "http://localhost:3001/",
   "dependencies": {
@@ -8,13 +9,16 @@
     "react-dom": "^16.6.3",
     "react-scripts": "^2.1.1",
     "react-router-dom": "^4.3.1",
-    "axios": "^0.18.0"
+    "axios": "^0.18.0",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+
   },
   "browserslist": [
     ">0.2%",
