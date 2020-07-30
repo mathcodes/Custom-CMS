@@ -1,20 +1,18 @@
-# Jon Christie's Portfolio
-
-LINK TO DEPLOYED SITE: https://customcms-jon.herokuapp.com/
+# Custom CMS 
+## [Heroku Deployment:](https://customcms-jon.herokuapp.com/)
 
 ![badge](https://img.shields.io/badge/Skill-HTML-orange) ![badge](https://img.shields.io/badge/Skill-CSS-blue) ![badge](https://img.shields.io/badge/Skill-JS-yellow) ![badge](https://img.shields.io/badge/Skill-nodejs-green) 
 
-![badge](https://img.shields.io/badge/first-FULLSTACKAppRepo-orange)
+![badge](https://img.shields.io/badge/1st-Full•Stack•App•Repo-orange)
 
 ## Description
 
-A mini project from bootcamp using
+A mini project from bootcamp using react in a full stack.
 
 ## Installation
 No installation required. Here is the link to the deployed porfolio: https://mathcodes.github.io/Portfolio/
 
 ## Usage
-
 
 <img src ="https://avatars0.githubusercontent.com/u/17928947?v=4" alt="Github profile image" width="80px" height="80px" />
 
