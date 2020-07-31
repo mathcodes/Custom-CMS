@@ -1,5 +1,5 @@
 # Custom CMS 
-## [Heroku Deployment:](https://customcms-jon.herokuapp.com/)
+## [Heroku Deployment](https://customcms-jon.herokuapp.com/)
 
 ![badge](https://img.shields.io/badge/Skill-HTML-orange) ![badge](https://img.shields.io/badge/Skill-CSS-blue) ![badge](https://img.shields.io/badge/Skill-JS-yellow) ![badge](https://img.shields.io/badge/Skill-nodejs-green) 
 
