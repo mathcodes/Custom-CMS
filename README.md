@@ -10,7 +10,7 @@
 A mini project from bootcamp using react in a full stack.
 
 ## Installation
-No installation required. Here is the link to the deployed porfolio: https://mathcodes.github.io/Portfolio/
+If you want to clone this, just make sure to install the dependencies in both package.json files in their respective directories, then start it locally using ```npm start```.
 
 ## Usage
 
