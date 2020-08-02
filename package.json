@@ -2,6 +2,7 @@
   "name": "redux-mini-project",
   "version": "1.0.0",
   "description": "",
+  "home": "https://mathcodes.github.io/jonchristieportfolio",
   "main": "server.js",
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
