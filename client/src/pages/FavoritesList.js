@@ -32,7 +32,7 @@ const FavoritesList = () => {
           <h3 className="mb-5 mt-5">Click on a post to view in detail</h3>
           {state.favorites.map(post => (
             <ListItem key={post._id}>
-              <Link to={"/posts/" + post._id}>
+              <Link to={"./posts/" + post._id}>
                 <strong>
                   {post.title} by {post.author}
                 </strong>

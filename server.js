@@ -1,9 +1,9 @@
 const express = require("express");
-
 const mongoose = require("mongoose");
 const routes = require("./routes");
 const app = express();
-const PORT = process.env.PORT || 3001;
+const config = require('config');
+const db = config.get('mongoURI');
 
 // Define middleware here
 app.use(express.urlencoded({ extended: true }));
@@ -16,7 +16,20 @@ if (process.env.NODE_ENV === "production") {
 app.use(routes);
 
 // Connect to the Mongo DB
-mongoose.connect(process.env.MONGODB_URI || "mongodb://user1:password1@ds035488.mlab.com:35488/heroku_mmtxg2sm");
+const connectDB = async () => {
+	try {
+		await mongoose.connect("mongodb+srv://user1:user1@devconnection.xzy3k.mongodb.net/test");
+		console.log('MongoDB Connected...');
+	} catch (err) {
+		console.error(err.message);
+		// Exit process with failure
+		process.exit(1);
+	}
+};
+
+module.exports = connectDB;
+
+const PORT = process.env.PORT || 6060;
 
 // Start the API server
 app.listen(PORT, function() {
